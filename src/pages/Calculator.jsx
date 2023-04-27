@@ -27,6 +27,7 @@ const Calculator = () => {
   return (
     <div className="child">
       <p>{answer}</p>
+      
       <input
         placeholder="Введите первое число"
         type="number"

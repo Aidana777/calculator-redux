@@ -2,26 +2,26 @@
 import { types } from "./types";
 
 
-export function incrementPlus() {
+export function incrementPlus(num_1,num_2) {
     return {
-        type: 'PLUS',
+        type: types.PLUS,
         payload: {
           numOne: num_1,
           numTwo: num_2,
         },
     }
 }
-export function decrementMINUS() {
+export function decrementMINUS(num_1,num_2) {
     return {
-        type: 'MINUS',
+        type: types.MINUS,
         payload: {
           numOne: num_1,
           numTwo: num_2,
         },    }
 }
-export function CalculatorMULTIPLIED() {
+export function CalculatorMULTIPLIED(num_1,num_2) {
     return {
-        type: 'MULTIPLIED',
+        type: types.MULTIPLIED,
       payload: {
         numOne: num_1,
         numTwo: num_2,
@@ -29,9 +29,9 @@ export function CalculatorMULTIPLIED() {
     }
 }
 
-export function CalculatorDIVIDED() {
+export function CalculatorDIVIDED(num_1,num_2) {
     return {
-        type: 'DIVIDED',
+        type: types.DIVIDED,
         payload: {
           numOne: num_1,
           numTwo: num_2,
