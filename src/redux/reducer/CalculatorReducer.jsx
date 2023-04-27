@@ -28,6 +28,7 @@ export const CalculatorReducer = (state = initialState, action) => {
         ...state,
         answer: (+action.payload.numOne / +action.payload.numTwo).toFixed(1),
       }
+
    
     default: return state
   }
@@ -35,6 +36,3 @@ export const CalculatorReducer = (state = initialState, action) => {
 };
 
 
-// if (action.payload.numOne === "" || action.payload.numTwo === "") {
-//   return { state.answer: "Введите число!" };
-// }
