@@ -1,3 +1,7 @@
 export const types = {
-calculator:'calculator'
+    PLUS:'PLUS',
+    MINUS:'MINUS',
+    MULTIPLIED:'MULTIPLIED',
+    DIVIDED:'DIVIDED'
+
 }
